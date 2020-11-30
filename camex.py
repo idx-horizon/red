@@ -5,10 +5,12 @@ def run():
   camera = picamera.PiCamera()
   camera.capture('example.jpg')
 
-#  camera.vflip = True
+  camera.vflip = True
 
-#  camera.capture('example2.jpg')
+  camera.capture('example2.jpg')
+  camera.vflip = False
 
+#  camera.capture
 #  camera.start_recording('examplevid.h264')
 #  time.sleep(10)
 #  camera.stop_recording()
